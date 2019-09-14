@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.ui.grid {
+  height: 100%;
+}
+
+.title-section {
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.title-column {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-section {
+  min-height: 75%;
+  background-color: #f9f9f9;
+}
+
+.experience-section {
+  background-color: #e8e8e8;
+}
+
+.skills-secton {
+  background-color: #f9f9f9;
+}
+
+.projects-section {
+  background-color: #e8e8e8;
+}
+
+.contact-section {
+  background-color: #f9f9f9;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.center {
+  text-align: center;
+}
+
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
