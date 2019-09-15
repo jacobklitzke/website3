@@ -1,4 +1,5 @@
 import React from "react";
+import { ParallaxProvider } from "react-scroll-parallax";
 import Intro from "./components/intro";
 import Profile from "./components/profile";
 import Experience from "./components/experience";
@@ -8,14 +9,16 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-    <div className="ui one column grid">
-      <Intro />
-      <Profile />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
+    <ParallaxProvider>
+      <div className="ui one column grid" style={{ margin: 0 }}>
+        <Intro />
+        <Profile />
+        <Experience />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+    </ParallaxProvider>
   );
 }
 
