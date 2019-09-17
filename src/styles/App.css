@@ -150,6 +150,10 @@ body {
     sans-serif;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 #root {
   height: 100%;
   width: 100%;
@@ -201,8 +205,25 @@ body {
 }
 
 .profile-section {
-  min-height: 75%;
   background-color: #f9f9f9;
+}
+
+.profile-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-column {
+  margin-top: 14px;
+  flex-basis: 100%;
+  margin-bottom: 14px;
+}
+
+.profile-row .profile-column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .experience-section {
@@ -221,12 +242,52 @@ body {
   background-color: #f9f9f9;
 }
 
+.row-header {
+  margin-bottom: 40px;
+}
+
+.section-header {
+  text-align: center;
+  position: relative;
+  padding: 0px 0px 10px 0px;
+  color: #17a7b5;
+}
+
+.section-subhead {
+  color: #17a7b5;
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.profile-image {
+  border-radius: 50%;
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px;
+  border-style: solid;
+  border-color: #e8e8e8;
+  display: block;
+}
+
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
   font-family: "Roboto";
   margin-bottom: 0;
+}
+
+.display-4 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: "Roboto";
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .center {
@@ -238,7 +299,7 @@ body {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 300;
   margin-top: 14px;
 }
@@ -256,5 +317,10 @@ body {
     background: url("/images/background.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
+  }
+
+  .profile-column {
+    flex-basis: 30%;
+    margin-bottom: 0px;
   }
 }
