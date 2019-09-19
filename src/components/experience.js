@@ -12,7 +12,23 @@ const Experience = () => {
           </div>
         </div>
         <div className="four column row experience-row">
-          <Card className="experience-item"></Card>
+          <Card className="experience-item">
+            <Card.Content>
+              <div className="exp-heading">
+                <div>
+                  <img
+                    class="exp-circle"
+                    src="/images/cisco.png"
+                    alt="Cisco logo"
+                  />
+                </div>
+                <div>
+                  <p className="exp-title">Cisco Systems</p>
+                </div>
+              </div>
+              <hr align="left" class="card-exp-line" />
+            </Card.Content>
+          </Card>
           <Card className="experience-item"></Card>
           <Card className="experience-item"></Card>
           <Card className="experience-item"></Card>
