@@ -18,13 +18,31 @@ const Profile = () => {
             <div className="column profile-column">
               <p class="section-subhead">About Me</p>
               <p>
-                I am a professional computer engineer who loves exploring new
-                technologies and learning about the latest innovations in the
-                industry. This love of exploration has led to the development of
-                skills in many different areas. My first passion is networking
-                and troubleshooting, but I also enjoy programming and
-                automation. Outside of my professional life, I enjoy playing
-                tennis and bocce ball, and watching movies and alpacas.
+                Hi, I'm Jacob, and I ask the question 'Why?'... a lot. Growing
+                up, I would constantly ask my parents, "Why?", and I had a
+                difficult time accepting when they would respond with, "Because
+                I told you so". Today, I still find myself asking this question
+                regularly - "Why is this?" "Is there an easier way?" "What is
+                the actual problem which needs to be solved?". This curiosity
+                has pushed me to experience different ways of approaching tasks
+                and solving problems. As a result, I have found a passion for
+                creating new methods to make processes easier and more efficient
+                in order to transform the way people work and interact with
+                technology.
+              </p>
+              <p>
+                Presently, I lead this effort to change the way people work by
+                automating processes and creating new tools in the Customer
+                Experience space at Cisco. In addition, I also collaborate with
+                customers to resolve highly complex technical issues in the AAA
+                security space. In the past, I have worked on automated test
+                design and test-bed deplyoment at NetApp, written monitoring
+                tools for a small datacenter, and created tools to reduce
+                project completion times.
+              </p>
+              <p>
+                Feel free to contact me at any of the links at the bottom of
+                this page, I always enjoy saying Hi!
               </p>
             </div>
             <div className="column profile-column">
@@ -48,29 +66,55 @@ const Profile = () => {
                 />
               </picture>
             </div>
-            <div className="column profile-column">
-              <p class="section-subhead">Highlights</p>
-              <p>
-                <b>Location:</b>
-                <br />
-                <i class="material-icons">room</i> Dallas, TX
-                <br />
-              </p>
-              <p>
-                <b>Education:</b>
-                <br /> BS - Computer Engineering
-                <br />
-                <i class="material-icons">account_balance</i> Wichita State
-                University | Wichita, KS
-                <br />
-              </p>
-              <p>
-                <b>Certifications:</b>
-                <br /> &bull; CCNA Route/Switch
-                <br />
-                &bull; CCNA Security
-                <br />
-              </p>
+            <div className="column profile-column highlights-column">
+              <p class="section-subhead highlights-header">Highlights</p>
+              <div className="highlights-container">
+                <p className="display-p-subhead">Location:</p>
+                <p className="display-p">
+                  <i class="material-icons md-22">room</i> Dallas, TX
+                </p>
+              </div>
+              <div className="highlights-container">
+                <p className="display-p-subhead">Education:</p>
+                <p className="display-p" style={{ marginBottom: 0 }}>
+                  <i class="material-icons md-22">account_balance</i> BS -
+                  Computer Engineering
+                </p>
+                <p className="display-p">
+                  Wichita State University | Wichita, KS
+                </p>
+              </div>
+              <div className="highlights-container">
+                <p className="display-p-subhead">Certifications:</p>
+                <p className="display-p" style={{ marginBottom: 0 }}>
+                  &bull; CCNA Route/Switch
+                </p>
+                <p className="display-p" style={{ marginBottom: 0 }}>
+                  &bull; CCNA Security
+                </p>
+                <p className="display-p">
+                  &bull; AWS Solutions Architect Associate
+                </p>
+              </div>
+              <div className="highlights-container">
+                <p className="display-p-subhead">Strengths:</p>
+                <p className="display-p" style={{ marginBottom: 0 }}>
+                  &bull; Discussing movies
+                </p>
+                <p className="display-p" style={{ marginBottom: 0 }}>
+                  &bull; Eating cookies
+                </p>
+                <p className="display-p">&bull; Facial expressiveness</p>
+              </div>
+              <div className="highlights-container">
+                <p className="display-p-subhead">Spirit Animal:</p>
+                <p className="display-p">
+                  <span role="img" aria-label="alpaca">
+                    🦙
+                  </span>{" "}
+                  Alpaca
+                </p>
+              </div>
             </div>
           </div>
         </div>
