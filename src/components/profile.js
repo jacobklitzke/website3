@@ -10,7 +10,7 @@ const Profile = () => {
               <h1 class="display-4 section-header">Profile</h1>
               <hr width="50%" class="my-1 center" />
               <p class="lead center">
-                A forward thinking, creative, computer engineer
+                Transforming work processes through code
               </p>
             </div>
           </div>
