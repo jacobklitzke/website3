@@ -3,7 +3,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import Intro from "./components/intro";
 import Profile from "./components/profile";
 import Experience from "./components/experience";
-import Skills from "./components/skills";
+import Skills from "./components/Skills/skills";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 

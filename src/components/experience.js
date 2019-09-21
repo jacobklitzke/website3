@@ -165,7 +165,7 @@ const Experience = () => {
             <hr width="50%" className="my-1 center" />
           </div>
         </div>
-        <div className="four column row experience-row">
+        <div className="two column row experience-row">
           <Card className="experience-item">
             <Card.Content>
               <div className="exp-heading">

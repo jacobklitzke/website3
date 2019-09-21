@@ -264,12 +264,15 @@ a {
 }
 
 .ui.card.experience-item {
-  flex-basis: 80%;
-  margin: 30px;
+  flex-basis: 95%;
 }
 
-.experience-row .ui.card.experience-item:nth-child(-n + 2) {
+.experience-row .ui.card.experience-item:nth-child(-n + 1) {
   margin-top: 0px;
+}
+
+.experience-row .ui.card.experience-item:last-child {
+  margin-bottom: 40px;
 }
 
 .exp-heading {
@@ -332,6 +335,64 @@ a {
 
 .skills-secton {
   background-color: #f9f9f9;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills-column {
+  flex-basis: 95%;
+  margin-bottom: 30px;
+}
+
+.skills-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skills-text-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #17a7b5;
+}
+
+.skills-heading > p:last-child {
+  margin-bottom: 14px;
+}
+
+.skills-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.skill {
+  flex-basis: 50%;
+}
+
+.skill-text {
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .projects-section {
@@ -450,6 +511,16 @@ a {
   .highlights-container {
     flex-basis: 50%;
   }
+
+  .ui.card.experience-item {
+    flex-basis: 80%;
+    margin: 30px;
+  }
+
+  .skills-column {
+    flex-basis: 40%;
+    margin: 0px 30px 30px 30px;
+  }
 }
 
 @media only screen and (min-device-width: 1025px) {
@@ -465,6 +536,20 @@ a {
   }
 
   .ui.card.experience-item {
-    flex-basis: 35%;
+    flex-basis: 40%;
+    margin: 30px;
+  }
+
+  .experience-row .ui.card.experience-item:nth-child(-n + 2) {
+    margin-top: 0px;
+  }
+
+  .skills-column {
+    flex-basis: 25%;
+    margin: 0px 30px 30px 30px;
+  }
+
+  .skill-text {
+    font-size: 22px;
   }
 }
