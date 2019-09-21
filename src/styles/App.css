@@ -147,6 +147,10 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
+.material-icons.md-22.link {
+  top: 5px;
+}
+
 html,
 body {
   height: 100%;
@@ -159,6 +163,10 @@ body {
 
 p {
   font-size: 1.2rem;
+}
+
+a {
+  color: #141414;
 }
 
 #root {
@@ -294,6 +302,34 @@ p {
   width: 90%;
 }
 
+.exp-tagline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.card-exp-tagline {
+  color: #141414;
+  margin-bottom: 0.5rem;
+}
+
+.card-exp-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+  transition: flex, 3s;
+}
+
+.ui.card > .content > .card-exp-body p:last-child {
+  margin-bottom: 0.5em;
+}
+
+.card-exp-body-read-more {
+  font-size: 1rem;
+  color: #7d8080;
+}
+
 .skills-secton {
   background-color: #f9f9f9;
 }
@@ -321,6 +357,14 @@ p {
   color: #17a7b5;
   text-align: left;
   font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.card-section-subhead {
+  color: #17a7b5;
+  text-align: left;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
@@ -382,6 +426,12 @@ p {
   margin-top: 14px;
 }
 
+.line {
+  font-size: 1.5em;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .parallax-background {
     background: url("/images/background-tablet.jpg") no-repeat center center;
@@ -399,10 +449,6 @@ p {
 
   .highlights-container {
     flex-basis: 50%;
-  }
-
-  .ui.card.experience-item {
-    flex-basis: 35%;
   }
 }
 

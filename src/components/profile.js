@@ -7,16 +7,16 @@ const Profile = () => {
         <div className="column">
           <div className="row row-header">
             <div className="column">
-              <h1 class="display-4 section-header">Profile</h1>
-              <hr width="50%" class="my-1 center" />
-              <p class="lead center">
+              <h1 className="display-4 section-header">Profile</h1>
+              <hr width="50%" className="my-1 center" />
+              <p className="lead center">
                 Transforming work processes through code
               </p>
             </div>
           </div>
           <div className="three column row profile-row">
             <div className="column profile-column">
-              <p class="section-subhead">About Me</p>
+              <p className="section-subhead">About Me</p>
               <p>
                 Hi, I'm Jacob, and I ask the question 'Why?'... a lot. Growing
                 up, I would constantly ask my parents, "Why?", and I had a
@@ -67,17 +67,17 @@ const Profile = () => {
               </picture>
             </div>
             <div className="column profile-column highlights-column">
-              <p class="section-subhead highlights-header">Highlights</p>
+              <p className="section-subhead highlights-header">Highlights</p>
               <div className="highlights-container">
                 <p className="display-p-subhead">Location:</p>
                 <p className="display-p">
-                  <i class="material-icons md-22">room</i> Dallas, TX
+                  <i className="material-icons md-22">room</i> Dallas, TX
                 </p>
               </div>
               <div className="highlights-container">
                 <p className="display-p-subhead">Education:</p>
                 <p className="display-p" style={{ marginBottom: 0 }}>
-                  <i class="material-icons md-22">account_balance</i> BS -
+                  <i className="material-icons md-22">account_balance</i> BS -
                   Computer Engineering
                 </p>
                 <p className="display-p">

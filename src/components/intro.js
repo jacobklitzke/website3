@@ -32,7 +32,7 @@ const Intro = () => {
           </Parallax>
           <div className="jumbotron">
             <h1 className="display-3 center">Jacob Klitzke</h1>
-            <hr width="50%" class="my-1 center" />
+            <hr width="50%" className="my-1 center" />
             <p className="lead center">
               Network Engineer, Automator, and Developer
             </p>
