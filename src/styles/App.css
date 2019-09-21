@@ -198,6 +198,8 @@ a {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .profile-section {
@@ -481,6 +483,10 @@ a {
     height: 100%;
   }
 
+  .jumbotron {
+    padding: 0;
+  }
+
   .highlights-column {
     flex-direction: row;
   }
@@ -523,6 +529,10 @@ a {
     background: url("/images/background.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
+  }
+
+  .jumbotron {
+    padding: 0;
   }
 
   .profile-column {
