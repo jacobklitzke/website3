@@ -1,11 +1,11 @@
 import React from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
-import Intro from "./components/intro";
-import Profile from "./components/profile";
+import Intro from "./components/Intro/intro";
+import Profile from "./components/Profile/profile";
 import Experience from "./components/Experience/experience";
 import Skills from "./components/Skills/skills";
-import Projects from "./components/projects";
-import Contact from "./components/contact";
+import Projects from "./components/Projects/projects";
+import Contact from "./components/Contact/contact";
 
 function App() {
   return (

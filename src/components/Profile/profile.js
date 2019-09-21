@@ -1,6 +1,13 @@
 import React from "react";
 
 const Profile = () => {
+  const [iconSize, setIconSize] = React.useState(22);
+
+  React.useEffect(() => {
+    if (window.innerWidth < 768) {
+      setIconSize(18);
+    }
+  }, [setIconSize]);
   return (
     <>
       <div className="row profile-section">
@@ -71,14 +78,19 @@ const Profile = () => {
               <div className="highlights-container">
                 <p className="display-p-subhead">Location:</p>
                 <p className="display-p">
-                  <i className="material-icons md-22">room</i> Dallas, TX
+                  <i className="material-icons" style={{ fontSize: iconSize }}>
+                    room
+                  </i>{" "}
+                  Dallas, TX
                 </p>
               </div>
               <div className="highlights-container">
                 <p className="display-p-subhead">Education:</p>
                 <p className="display-p" style={{ marginBottom: 0 }}>
-                  <i className="material-icons md-22">account_balance</i> BS -
-                  Computer Engineering
+                  <i className="material-icons" style={{ fontSize: iconSize }}>
+                    account_balance
+                  </i>{" "}
+                  BS - Computer Engineering
                 </p>
                 <p className="display-p">
                   Wichita State University | Wichita, KS
