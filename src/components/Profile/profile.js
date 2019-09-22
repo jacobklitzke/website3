@@ -80,7 +80,7 @@ const Profile = () => {
                 <p className="display-p">
                   <i className="material-icons" style={{ fontSize: iconSize }}>
                     room
-                  </i>{" "}
+                  </i>
                   Dallas, TX
                 </p>
               </div>

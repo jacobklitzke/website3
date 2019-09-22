@@ -386,6 +386,28 @@ a {
   background-color: #f9f9f9;
 }
 
+.ui.grid > .row > .column.contact-container {
+  margin-bottom: 40px;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-column {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.contact-column:last-child {
+  justify-content: flex-start;
+}
+
 .row-header {
   margin-bottom: 40px;
 }
@@ -474,6 +496,41 @@ a {
   font-size: 1.5em;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.contact-icon {
+  height: 32px;
+  enable-background: new 0 0 32 32;
+}
+
+.twitter {
+  position: relative;
+  bottom: 5px;
+}
+
+.twitter-fill {
+  fill: #141414;
+}
+
+.linked-in {
+  position: relative;
+  bottom: 5px;
+}
+
+.linked-in-fill {
+  fill: #141414;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50.1%;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.icon-container > .display-p:hover {
+  color: #17a7b5;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
