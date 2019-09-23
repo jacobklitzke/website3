@@ -19,8 +19,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="two column row contact-row">
-          <div className="column contact-column">
-            <div className="icon-container">
+          <div className="column contact-column" style={{ marginRight: "5%" }}>
+            <div
+              className="icon-container align-right"
+              style={{ paddingRight: 10 }}
+            >
               <svg
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +54,7 @@ const Contact = () => {
                 @jacobklitzke
               </a>
             </div>
-            <div className="icon-container">
+            <div className="icon-container align-right">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -78,7 +81,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div className="column contact-column">
+          <div className="column contact-column" style={{ marginLeft: "5%" }}>
             <div className="icon-container" style={{ marginBottom: "0.5rem" }}>
               <i
                 className="material-icons"
